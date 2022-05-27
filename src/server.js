@@ -11,5 +11,6 @@ app.use(express.urlencoded({ extended: true }));
 
 //#region API routes
 app.use(routes);
+//#endregion
 
 export default app;

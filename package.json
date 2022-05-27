@@ -6,20 +6,21 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "node ./src",
+    "start": "node -r esm ./src",
     "start:dev": "nodemon"
   },
   "dependencies": {
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25"
   },
   "nodemonConfig": {
     "watch": [
       "src"
     ],
     "ext": "js",
-    "exec": "node -r ./src"
+    "exec": "node -r esm ./src"
   }
 }
