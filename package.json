@@ -6,6 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "prestart": "yarn",
     "start": "node -r esm ./src",
     "start:dev": "nodemon"
   },
