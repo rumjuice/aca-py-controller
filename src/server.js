@@ -4,13 +4,11 @@ import routes from "./routes";
 // Initialize express
 const app = express();
 
-//#region Middleware
+// Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-//#endregion
 
-//#region API routes
+// API routes
 app.use(routes);
-//#endregion
 
 export default app;

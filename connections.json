@@ -1,0 +1,54 @@
+{
+  "invitation": [
+    {
+      "connection_id": "070372e8-79a4-4541-bf55-818e3b4d0c9e",
+      "accept": "manual",
+      "invitation_mode": "once",
+      "state": "invitation",
+      "connection_protocol": "connections/1.0",
+      "rfc23_state": "invitation-sent",
+      "alias": "create invitation 9",
+      "created_at": "2022-05-27T23:39:27.028433Z",
+      "their_role": "invitee",
+      "invitation_key": "7aZZQ7ADVBLV8dL2azg7DDVdQE6wAHBgwoKa5JNTYNeX",
+      "updated_at": "2022-05-27T23:39:27.028433Z",
+      "routing_state": "none"
+    },
+    {
+      "connection_id": "8e8a2236-c595-499d-bfb2-f2861f143ae9",
+      "accept": "manual",
+      "invitation_mode": "once",
+      "state": "invitation",
+      "connection_protocol": "connections/1.0",
+      "their_label": "MY_SSI_AGENT",
+      "rfc23_state": "invitation-received",
+      "alias": "receive invitation 9",
+      "created_at": "2022-05-27T23:53:01.282974Z",
+      "invitation_msg_id": "ff3c28b5-7e0b-45e8-8593-d71244a7c06d",
+      "their_role": "inviter",
+      "invitation_key": "7aZZQ7ADVBLV8dL2azg7DDVdQE6wAHBgwoKa5JNTYNeX",
+      "updated_at": "2022-05-27T23:53:01.282974Z",
+      "routing_state": "none"
+    }
+  ],
+  "request": [
+    {
+      "connection_id": "8e8a2236-c595-499d-bfb2-f2861f143ae9",
+      "accept": "manual",
+      "invitation_mode": "once",
+      "state": "request",
+      "request_id": "2a1ba6e8-7c6c-4211-85b2-5f38da1ca7d8",
+      "connection_protocol": "connections/1.0",
+      "their_label": "MY_SSI_AGENT",
+      "my_did": "QHRSg8kCyV4qpQSGGk5wz4",
+      "rfc23_state": "request-sent",
+      "alias": "receive invitation 9",
+      "created_at": "2022-05-27T23:53:01.282974Z",
+      "invitation_msg_id": "ff3c28b5-7e0b-45e8-8593-d71244a7c06d",
+      "their_role": "inviter",
+      "invitation_key": "7aZZQ7ADVBLV8dL2azg7DDVdQE6wAHBgwoKa5JNTYNeX",
+      "updated_at": "2022-05-28T00:02:57.820105Z",
+      "routing_state": "none"
+    }
+  ]
+}

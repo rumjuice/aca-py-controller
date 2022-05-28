@@ -1,7 +1,7 @@
 {
   "name": "aca-py-controller",
   "version": "0.0.1",
-  "description": "Simple ACA-Py Controller for Hyperledger Indy",
+  "description": "Simple ACA-Py Controller Webhook for Hyperledger Indy",
   "author": "Ramdhani Rachmansyah",
   "license": "MIT",
   "private": true,
@@ -10,7 +10,8 @@
     "start:dev": "nodemon"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "node-json-db": "^1.5.0"
   },
   "devDependencies": {
     "dotenv": "^16.0.1",
