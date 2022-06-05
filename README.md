@@ -1,6 +1,6 @@
 # ACA-Py Controller
 
-Simple ACA-Py controller webhook for Hyperledger Indy
+Simple ACA-Py controller webhook for Hyperledger Aries
 
 ### As part of Advanced Blockchain Technology Assignment
 
